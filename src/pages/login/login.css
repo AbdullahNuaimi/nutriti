@@ -1,0 +1,61 @@
+.login-page-container{
+    position:fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #82c0cc;
+    background-image: linear-gradient(0deg, #82c0cc 0%, #ffffff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.login-stamp{
+    aspect-ratio: 3/2;
+    height: 200px;
+    background-image: url('/public/stamp.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.form-header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 7px;
+}
+.form-header>p{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0;
+    margin-left: 75px;
+}
+.login-form-wrapper{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #16697a;
+    aspect-ratio: 2/3;
+    height: 600px;
+    border-radius: 17px;
+    -webkit-box-shadow: -16px 14px 41px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -16px 14px 41px -7px rgba(0,0,0,0.75);
+    box-shadow: -16px 14px 41px -7px rgba(0,0,0,0.75);
+}
+
+.login-form-wrapper > form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 20px;
+    
+}
+
+.email-input,.password-input{
+    width: 250px;
+}

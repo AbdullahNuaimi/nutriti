@@ -1,0 +1,48 @@
+[
+
+  {
+"name": "bread", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Korb_mit_Br%C3%B6tchen.JPG/250px-Korb_mit_Br%C3%B6tchen.JPG", "amount": 423, "calories":65}
+
+  ,
+  {
+"name": "tomato", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/220px-Tomato_je.jpg", "amount": 65, "calories":78}
+
+  ,
+  {
+"name": "potato", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Patates.jpg/220px-Patates.jpg", "amount": 43, "calories":64}
+
+  ,
+  {
+"name": "butter", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/%C5%A0v%C3%A9dsk%C3%BD_kol%C3%A1%C4%8D_naruby_904_%28cropped%29.JPG/300px-%C5%A0v%C3%A9dsk%C3%BD_kol%C3%A1%C4%8D_naruby_904_%28cropped%29.JPG", "amount": 56, "calories":345}
+
+  ,
+  {
+"name": "sugar", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sucre_blanc_cassonade_complet_rapadura.jpg/220px-Sucre_blanc_cassonade_complet_rapadura.jpg", "amount": 34, "calories":666}
+
+  ,
+
+  {
+"name": "apple", "image": "https://www.onapples.com/uploads/varieties/3y3v9tyf8h96.png", "amount": 22, "calories":100}
+
+  ,
+  {
+"name": "orange", "image": "https://5.imimg.com/data5/SU/II/MY-1600400/fresh-orange-500x500.jpg", "amount": 29, "calories":201}
+
+  ,
+  {
+"name": "water melon", "image": "https://stoller.com.au/wp-content/uploads/2019/03/seedless-watermelon_crop.jpg", "amount": 400, "calories":200}
+
+  ,
+  {
+"name": "Banana", "image": "https://www.realsimple.com/thmb/JBJ9kqegJc1wvb80HjjaINKcSu0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/banana-health-benefits-2000-dd3246dfde864ba08bb585381491925e.jpg", "amount": 33, "calories":243}
+
+  ,
+  {
+"name": "Avocado", "image": "https://img.taste.com.au/qh8g3dSr/taste/2017/02/avo-120355-1.jpg", "amount": 30, "calories":90}
+
+  ,
+  {
+"name": "beef", "image": "https://www.ogbete.com.ng/wp-content/uploads/2020/05/beef-kg.jpg", "amount": 250, "calories":700}
+
+
+]

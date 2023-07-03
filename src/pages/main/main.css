@@ -1,0 +1,68 @@
+.main-page-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.main-page-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+.nav-button{
+    aspect-ratio: 4/3;
+    width: 300px;
+    margin: 15px;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-program-wrapper,
+.manage-food-wrapper,
+.view-programs-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.7s;
+    transform: scale(1);
+}
+.add-program-wrapper:hover,
+.manage-food-wrapper:hover,
+.view-programs-wrapper:hover{
+    transition: 0.7s;
+    transform: scale(1.1);
+    color: #ffa62b;
+    z-index: 1;
+}
+
+
+.add-program-button,
+.manage-food-button,
+.view-programs-button{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.add-program-button{
+    background-image: url('/public/add-program-image.svg');
+
+}
+
+.manage-food-button{
+    background-image: url('/public/add-meal.svg');
+}
+
+.view-programs-button{
+    background-image: url('/public/view-programs.svg');
+}

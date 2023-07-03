@@ -1,0 +1,73 @@
+.view-programs-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 50px;
+}
+.no-programs-heading{
+    margin-top: 60px;
+}
+.search-input-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.search-name-input{
+    width: 914px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+table.programs-table{
+    margin-top: 10px;
+    max-height: 1100px;
+}
+
+.programs-table-header{
+    background-color: #489fb5;
+    color: white;
+}
+
+.table-header-row td{
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    width: 300px;
+}
+
+.table-body{
+    padding: 7px;
+    background-color: #eeebe9;
+}
+
+.calories-cell{
+    text-align: center;
+}
+.control-buttons-cell{
+    padding: 7px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 7px;
+}
+
+.download-pdf-button,.delete-button{
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    color: #489fb5;
+    cursor: pointer;
+}
+
+button.delete-button{
+    color: #d40000;
+}
+
+.download-pdf-button:hover,.delete-button:hover{
+    transition: 0.6s;
+    color: red;
+    transform: scale(1.1);
+}

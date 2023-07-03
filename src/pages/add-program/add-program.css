@@ -1,0 +1,88 @@
+.new-program-page-container{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.control-buttons{
+    display: flex;
+    justify-content: flex-end;
+    z-index: -1;
+}
+.new-program-page-container table{
+    width: 900px;
+}
+.program-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.week-days {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+}
+.week-days td  {
+    height: 40px;
+    width: 125px;
+    display: flex;
+}
+.week-days td > button{
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+    text-align: center; 
+}
+.week-days td > button:hover{
+    transition: 0.7s;
+    box-shadow: 1px 1px #489fb5, -1px -1px #489fb5,-1px 1px #489fb5,1px -1px #489fb5;
+}
+.week-days td > button:active{
+    box-shadow: 13px 13px #489fb5, -13px -13px #489fb5,-13px 13px #489fb5,13px -13px #489fb5;
+}
+fieldset{
+    border-radius: 10px;
+    border: 2px dashed #489fb5;
+    margin-bottom: 20px;
+}
+
+.week-days td >button.selected{
+    transition: 0.5s;
+    background-color: #16697a;
+    color: white;
+}
+
+.patient-name,
+.patient-phone,
+.patient-email,
+.patient-city
+{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.patient-dob{
+    width: 200px;
+}
+.patient-city{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 200px;
+}
+.form-content-wrapper{
+    margin-top: 20px;
+    max-width: 900px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.patient-dob{
+    height: 30px;
+}

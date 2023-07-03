@@ -1,0 +1,32 @@
+.mini-card-container{
+   background-color: white;
+   aspect-ratio: 2.35/1;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   margin: 10px;
+   border: solid 2px #16697a;
+   border-radius: 7px;
+}
+
+.left-mini-card-wrapper{
+    aspect-ratio: 1/1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ede7e3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.right-mini-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-mini-card-wrapper>p{
+    margin: 0;
+}
